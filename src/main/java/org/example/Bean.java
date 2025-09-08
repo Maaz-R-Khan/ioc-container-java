@@ -2,7 +2,7 @@ package org.example;
 
 public interface Bean {
 
-    String getBeanType();
-    void showInfo();
+   public String getBeanType();
+   public  void showInfo();
 
 }
