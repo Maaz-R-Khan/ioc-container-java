@@ -1,33 +1,33 @@
 package org.example;
 
 public class Item {
-    protected String item;
+    protected String name;
     protected double price;
 
 
     //default constructor.
     public Item() {
-        this.item = "";
+        this.name = "";
         this.price = 0;
     }
 
 
-    //two parameter constructor that initializes item and price.
-    public Item(String item, double price) {
-        this.item = item;
+    //two parameter constructor that initializes name and price.
+    public Item(String name, double price) {
+        this.name = name;
         this.price = price;
     }
 
 
 
-    //getter method for item
-    public String getItem() {
-        return item;
+    //getter method for name
+    public String getName() {
+        return name;
     }
 
-    //setter method for item.
-    public void setItem(String item) {
-        this.item = item;
+    //setter method for name.
+    public void setName(String name) {
+        this.name = name;
     }
 
     //getter method for price.
